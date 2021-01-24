@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <h1 id="title">This works!</h1>
+    <h1 id="title">May you be happy!!</h1>
     <script src="index.js"></script>
     <div class="js-clock">
         <h1>00:00</h1>
@@ -16,12 +16,25 @@
         <input type="text" placeholder="What is your name?" />
     </form>
     <h4 class="js-greetings greetings"></h4>
-    <form class="js-toDoForm">
-        <input type="text" placeholder="Write a to do" />
+
+    <h1>Tasks</h1>
+    <form class="js-Tasks__form">
+      <input class="js-Tasks__input" type="text" placeholder="Add Task" />
     </form>
-    <ul class="js-toDoList">
-    <span class="js-weather"></span>
+    <section class="Tasks__section">
+    <div>
+    <h2>Pending</h2>
+    <ul class="pending-ul"></ul>
+    </div>    
+    <div>
+    <h2>Finished</h2>
+    <ul class="finished-ul"></ul>
+    </div>
+    </section>
+
+    <script src="src/index.js"></script>
     </ul>
+    <span class="js-weather"></span>
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
     <script src="todo.js"></script>
